@@ -1,0 +1,100 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 10px 20px;
+    top: 0%;
+
+}
+
+nav .logo img {
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: "Vina Sans", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+}
+
+nav ul li {
+    color: #fff;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: "Vina Sans", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+}
+
+button {
+
+    font-family: "Vina Sans", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+}
+
+#hero {
+    
+    height: 800px;
+    background-image: url(image\ 1.png);
+    background-size: cover;
+    top: 0%;
+
+}
+
+#dates {
+    
+    height: 600px;
+    background-image: url(Rectangle\ 1.png);
+    background-size: cover;
+    top: 0%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+
+#bio {
+
+    height: 800px;
+    background-image: url(Rectangle\ 2.png);
+    background-size: cover;
+
+
+}
+
+form {
+    background: #000000;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#contacto {
+    height: 800px;
+    background-image: url(Rectangle\ 3.png);
+    background-size: cover;
+}
