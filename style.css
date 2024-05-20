@@ -100,26 +100,13 @@ th, td {
 
 #bio {
 
-    height: 800px;
+    height: 900px;
     background-image: url(Rectangle\ 2.png);
     background-size: cover;
     padding-inline-start: 30px;
-    align-items: end;
 
 
 
-}
-
-
-.bio-text div {
-
-    display: flex;
-    text-align: left;
-    padding-right: 20px;
-    font-size: 20px;
-    height: 600px;
-    width: 600px;
-    
 }
 
 p {
@@ -133,6 +120,7 @@ p {
 
     height: 500px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 form {
@@ -144,6 +132,7 @@ form {
     width: 300px;
     font-size: xx-large;
     width: 500px;
+
 }
 
 #contacto {
