@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+  }
 
 nav {
     display: flex;
@@ -45,6 +48,14 @@ button {
     font-family: "Vina Sans", sans-serif;
     font-size: x-large;
     font-style: normal;
+    cursor: pointer;
+    height: 80px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+button:hover {
+ text-decoration: underline;
 }
 
 #hero {
@@ -54,6 +65,16 @@ button {
     background-size: cover;
     top: 0%;
 
+}
+
+#hero h1 {
+color: #fff;
+}
+
+#hero button {
+
+    background-color: #000000;
+    color: #fff;
 }
 
 #dates {
@@ -90,6 +111,20 @@ th, td {
     text-align: left;
     padding-right: 20px;
     font-size: 20px;
+    height: 600px;
+    width: 600px;
+}
+
+p {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.band-picture img {
+
+    height: 500px;
 }
 
 form {
@@ -99,10 +134,33 @@ form {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    font-size: xx-large;
+    width: 500px;
 }
 
 #contacto {
-    height: 800px;
+    height: 600px;
     background-image: url(Rectangle\ 3.png);
     background-size: cover;
+}
+
+footer {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+
+  footer > a {
+
+    color: white;
+}
+
+
+  a:visited {
+    color: white;
 }
