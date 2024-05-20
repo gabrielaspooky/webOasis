@@ -69,6 +69,8 @@ button:hover {
 
 #hero h1 {
 color: #fff;
+padding-inline-start: 30px;
+padding-top: 70px;
 }
 
 #hero button {
@@ -101,9 +103,13 @@ th, td {
     height: 800px;
     background-image: url(Rectangle\ 2.png);
     background-size: cover;
+    padding-inline-start: 30px;
+    align-items: end;
+
 
 
 }
+
 
 .bio-text div {
 
@@ -113,6 +119,7 @@ th, td {
     font-size: 20px;
     height: 600px;
     width: 600px;
+    
 }
 
 p {
@@ -125,6 +132,7 @@ p {
 .band-picture img {
 
     height: 500px;
+    display: flex;
 }
 
 form {
